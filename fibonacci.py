@@ -6,16 +6,20 @@
 # Validate that the input is a positive integer.
 # Use a for loop to print the Fibonacci sequence up to that many terms.
 
-user_number = input("Enter a positive number of a term for the Fibonacci sequence")
-n = (user_number - 1) + (user_number - 2)
+while True:
+    user_number = int(input("Enter a positive number of a term for the Fibonacci sequence"))
+    
 
-if (user_number < 0):
-  print("invalid number. Enter a positive number")
-      
-for i in range(4181):
-  if(user_number == 0)
-      print(n)
-  else 
-    print("yes working)
-  
+    if user_number <= 0:
+        print("invalid number. Enter a positive number")
+    else:  
+        num1 = 0
+        num2 = 1
+        for i in range(user_number):
+            total = num1 + num2
+            print(num1)
+            #print("")
+            num1 = num2 
+            num2 = total
+        break
 
