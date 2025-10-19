@@ -23,3 +23,4 @@ while True:
             num2 = total
         break
 
+# your code breaks when a non-integer is entered -1
