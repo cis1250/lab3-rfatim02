@@ -53,7 +53,7 @@ for i in word_list:
         words.append(i)
         frequencies.append(1)
 
-print("Word Frequencies:")
+#print("Word Frequencies:")
 for i in range(len(words)):
     print(words[i], ":", frequencies[i])
 
