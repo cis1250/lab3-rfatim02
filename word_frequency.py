@@ -38,6 +38,7 @@ while (is_sentence(user_sentence) == False):
 user_sentence = user_sentence.replace('.', '')
 user_sentence = user_sentence.replace('!', '')
 user_sentence = user_sentence.replace('?', '')
+user_sentence = user_sentence.replace(',', '')
 
 user_sentence = user_sentence.lower()
 word_list = user_sentence.split(' ')
